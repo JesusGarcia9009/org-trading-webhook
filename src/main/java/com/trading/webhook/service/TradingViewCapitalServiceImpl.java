@@ -41,11 +41,6 @@ public class TradingViewCapitalServiceImpl implements TradingViewCapitalService 
 	private final CapitalClient capitalClient;
 	private final OperationsRepository operationsRepository;
 
-	public static final String ACCOUNT_SID = "ACae0b73026da6d15a39f2e20d7e908361";
-	public static final String AUTH_TOKEN = "82b789b0413daa14bcf462188a18442c";
-	public static final String ACCOUNT_NUMBER = "+15188559620";
-	public static final String ACCOUNT_NUMBER_TO = "+56935647752";
-
 	@Override
 	public ConfirmResponse getPayLoadTradingViewDemo(TradingViewRequest dto) {
 		log.info(String.format(LOG_START, Thread.currentThread().getStackTrace()[1].getMethodName()));
